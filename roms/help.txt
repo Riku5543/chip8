@@ -1,0 +1,2 @@
+You can place .ch8 roms in this folder. There's no menu to select them though, so you could place them wherever you want technically.
+You can change which rom is loaded by calling the binary with a path to a rom file, or by editing the default rom in c8.nim.

@@ -1,0 +1,15 @@
+Memory: 4kb ram
+Display: 64x32 monochrome
+Program counter
+16-bit index register (I): Points to locations in memory
+Stack for 16-bit addresses, used for subroutines etc
+8-bit delay timer, decrements 60 times/s
+8-bit sound timer, beeps when not 0, decs 60t/s
+16 8-bit variable registers, V0-VF
+  * VF is also the flag register.
+
+Keypad is like this:   First could be impl. like this:
+123C    0123           1234
+456D OR 4567           qwer
+789E    89AB           asdf
+A0BF    CDEF           zxcv
